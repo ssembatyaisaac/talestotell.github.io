@@ -1,0 +1,70 @@
+html,
+body {
+  margin:0;
+  padding:0;
+  height:100%;
+}
+.container {
+  min-height:100%;
+  position:relative;
+}
+.header {
+  background:#ff0;
+  padding:10px;
+}
+.content {
+  padding:18px;
+  margin: 10px;
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  border: 1px solid #c9c4c4;
+  border-radius: 8px;
+}
+
+.cardtitle, .author, .date {
+  margin: 0;
+}
+
+.cardtitle{
+  font-family: Prata;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.author, .date{
+  font-family: Liberation Serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 11px;
+  display: flex;
+  align-items: center;
+}
+
+.cardimage {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  max-width: 100%;
+
+  left: 5.16%;
+  right: 5.16%;
+  top: 20.71%;
+  bottom: 31.07%;
+}
+
+.description{
+  margin: 0;
+}
+
+.footer {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:60px;   /* Height of the footer */
+  background:#6cf;
+}
